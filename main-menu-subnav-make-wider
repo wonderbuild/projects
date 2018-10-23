@@ -1,0 +1,3 @@
+/* MAIN MENU SUBNAV MAKE WIDER */
+.nav li ul {width:300px !important;}
+#top-menu li li a {width: 260px;}
