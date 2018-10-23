@@ -1,0 +1,17 @@
+/* FULL-WIDTH HEADER HEIGHT */
+@media only screen and ( min-width:981px ) {
+    .et_pb_fullwidth_header {
+    min-height: 600px !important;
+}
+}
+@media only screen and (min-width:601px) and (max-width: 980px)  {
+    .et_pb_fullwidth_header {
+    min-height: 400px !important;
+}
+}
+@media only screen and ( max-width:600px ) {
+    .et_pb_fullwidth_header {
+    min-height: 300px !important;
+}
+}
+
