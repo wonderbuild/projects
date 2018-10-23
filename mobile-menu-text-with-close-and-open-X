@@ -1,0 +1,15 @@
+/* MOBILE MENU TEXT WITH CLOSE AND OPEN X */
+
+.mobile_menu_bar:after {
+    content: 'MENU';
+    position: relative !important;
+    bottom: 8px;
+    left: 10%;
+    color: #ef6c00;
+    font-size:20px;
+}
+
+/* Change the hamburger to X when opened */
+.mobile_nav.opened .mobile_menu_bar:before {
+    content: '\4d';
+}
