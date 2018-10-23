@@ -1,0 +1,7 @@
+
+/* VERTICALLY ALIGN CONTENT MODULES IN A ROW */
+.vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
