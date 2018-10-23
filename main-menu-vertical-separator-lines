@@ -1,0 +1,14 @@
+/* MAIN MENU VERTICAL SEPARATOR LINES */
+
+#top-menu .menu-item:before{
+ content: '|';
+ color:#858587;
+ position: absolute;
+ right: 7px; /* adjust this number as you see fit. This may depend on the spacing of your menu items */
+}
+#top-menu .menu-item:last-child:before{
+ content:'';
+}
+#top-menu .menu-item-has-children .sub-menu .menu-item:before{
+ content:'';
+}
