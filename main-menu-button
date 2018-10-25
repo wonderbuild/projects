@@ -1,0 +1,22 @@
+/* MAIN MENU DONATE BUTTON */
+.donate {border-radius: 0px;}
+.donate a {color: #fff!important;}
+li.donate {
+	background-color:#be0f34; 
+	font-weight: 700; 
+	text-transform: uppercase; 
+	text-align: center; 
+	padding: 10px 13px 10px 10px!important;
+	border-radius: 3px;
+	-moz-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;}
+	li.donate:hover {background-color:#be0f34;}
+ 
+.et-fixed-header #top-menu .donate a {
+	color: #fff!important;}
+.donate li.current-menu-ancestor > a, .donate li.current-menu-item > a {
+	color: #fff !important;}
+
+@media only screen and (min-width : 981px) {
+            li.donate {height: 33px;}}
