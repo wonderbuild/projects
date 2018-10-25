@@ -1,0 +1,12 @@
+/* BULLET LIST STYLE */
+.et_pb_text ul li {
+  list-style: none; 
+}
+.et_pb_text ul li::before {
+  color: #da8e11;  /* color of bullet or square */
+  content: "\2022"; /* Unicode of character to precede the list item */
+  font-size: 2em; /* em or %*/
+  padding-right: .5em; /* use em*/
+  position: relative;
+  top: 0em; /* use em or % */
+}
