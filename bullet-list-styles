@@ -1,5 +1,8 @@
+/* BULLET LIST STYLE */
 .et_pb_text ul li {
   list-style: none; 
+  text-indent:-15px;
+  padding-left:15px;
 }
 .et_pb_text ul li::before {
   color: #da8e11;  /* color of bullet or square */
@@ -8,5 +11,4 @@
   padding-right: .2em; /* use em*/
   position: relative;
   top: 0em; /* use em or % */ 
-  list-style-position: inside;
 }
