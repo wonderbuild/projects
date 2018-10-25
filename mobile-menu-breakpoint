@@ -1,0 +1,6 @@
+/* SETTING BREAKPOINT FOR MOBILE MENU */
+@media only screen and ( max-width: 1250px ) {
+#top-menu-nav, #top-menu {display: none;}
+#et_top_search {display: none;}
+#et_mobile_nav_menu {display: block;}
+}
