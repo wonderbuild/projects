@@ -1,4 +1,4 @@
-/* SUBNAV DISPLAY ON-CLICK */
+/* SUBNAV DISPLAY ON-CLICK  goes in styles.css */
 .nav li.et-touch-hover>ul, .nav li:hover>ul {
     visibility: hidden;
     opacity: 0;
@@ -13,3 +13,21 @@
 .et_primary_nav_dropdown_animation_expand #et-top-navigation ul li:hover>ul, .et_secondary_nav_dropdown_animation_expand #et-secondary-nav li:hover>ul{
 	animation: none;
 }
+
+/* SUBNAV DISPLAY ON-CLICK  goes at bottom of footer.php before closing body tag */
+
+<script>
+	(function($){
+		$('.menu-item-has-children').on('click', function(e) {
+			console.log($(this).hasClass('children-opened'));
+			if($(this).hasClass('children-opened')) {
+				$(this).removeClass('children-opened');
+			} else {
+				if($('.menu-item-has-children.children-opened').length > 0) {
+					$('.menu-item-has-children.children-opened').removeClass('children-opened');
+				}
+				$(this).addClass('children-opened');
+			}
+		});
+	})(jQuery);
+</script>
