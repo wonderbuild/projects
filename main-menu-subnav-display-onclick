@@ -1,0 +1,15 @@
+/* SUBNAV DISPLAY ON-CLICK */
+.nav li.et-touch-hover>ul, .nav li:hover>ul {
+    visibility: hidden;
+    opacity: 0;
+	transform: translatey(-10px);
+	transition: 0.15s all ease-in;
+}
+.nav .menu-item.children-opened ul.sub-menu {
+    opacity: 1;
+	transform: translatey(0);
+    visibility: visible;
+}
+.et_primary_nav_dropdown_animation_expand #et-top-navigation ul li:hover>ul, .et_secondary_nav_dropdown_animation_expand #et-secondary-nav li:hover>ul{
+	animation: none;
+}
