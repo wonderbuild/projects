@@ -1,0 +1,4 @@
+/* REMOVING BOTTOM MARGIN FROM PROJECT POSTS */
+.single .et_pb_post {
+    margin-bottom: 0px !important;
+}
