@@ -1,0 +1,2 @@
+/* FORCING BUTTON TEXT COLOR */
+a.et_pb_button {color:#FFF !important;}
