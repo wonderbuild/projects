@@ -37,6 +37,9 @@
 <!-- NEED TO ADD FOR SAME BEHAVIOR ON MOBILE -->
 
 
+<!-- MAIN MENU SUBNAV DISPLAY ON-CLICK -->
+<script>
+
 jQuery(function($){
 
 	$('.menu-item-has-children').on('click', function(e) {
