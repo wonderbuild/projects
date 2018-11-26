@@ -1,0 +1,12 @@
+/* FILTERABLE PORTFOLIO CUSTOMIZATIONS */
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters {
+    clear: both;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters select{
+    width:300px !important;
+    font-size:18px !important;
+}
