@@ -1,3 +1,5 @@
+/* TRANSPARENT HEADER BACKGROUND ON HOMEPAGE ONLY */
+
 .home #main-header {
   background:transparent; 
   background-color: rgba(0, 0, 0, 0.2) !important;
