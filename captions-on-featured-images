@@ -1,0 +1,21 @@
+Captions on Featured Images
+
+
+1. Open the single.php file from your child theme
+2. Paste the following code before the first closing et_post_meta_wrapper div.  
+You need to make sure you put it at the end of the first one, just before the <div class=”entry-content”> area:
+
+<div class="et_post_meta_wrapper">
+...
+<?php if (get_post(get_post_thumbnail_id())->post_excerpt) { // search for if the image has caption added on it ?>
+	<div class="featured-image-caption">
+		<?php echo wp_kses_post(get_post(get_post_thumbnail_id())->post_excerpt); // displays the image caption ?>
+	</div>
+<?php } ?>
+
+</div> <!-- .et_post_meta_wrapper -->
+
+3. Make sure to add your caption to the image in your media library
+
+4. You can then style the caption by targeting the “featured-image-caption” class.
+
