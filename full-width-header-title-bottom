@@ -1,0 +1,18 @@
+/* CUSTOM FULL-WIDTH HEADER TITLE ON BOTTOM BORDER */
+
+#brice-headers .et_pb_fullwidth_header {
+ border-bottom:5px solid #e12726;
+}
+
+#brice-headers h1.et_pb_module_header {
+    background: #e12726;
+    overflow: hidden;
+    margin: 100px auto 0px auto;
+    padding: 10px;
+    float: left;
+    display: inline;
+}
+
+#brice-headers .et_pb_fullwidth_header {
+    padding-bottom:0px !important;
+}
