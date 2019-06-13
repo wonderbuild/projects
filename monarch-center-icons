@@ -1,0 +1,4 @@
+.et_monarch .et_social_networks li {
+float: none;
+display: inline-block;
+}
