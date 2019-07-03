@@ -5,3 +5,5 @@
     flex-direction: column; 
     justify-content: center;
 } 
+
+/* in row settings, set equalize column height to yes -- and then add the custom css to each column */
