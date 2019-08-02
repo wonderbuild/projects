@@ -1,0 +1,17 @@
+/* CUSTOM ERROR PAGES */
+
+.error404 #main-content .container, .error404 #content-area, .error404 #left-area {
+ padding: 0 !important;
+ margin: 0 ;
+ width: 100% !important;
+ max-width: none;
+ margin-top: -20px;
+}
+
+.error404 #sidebar {
+ display: none;
+}
+
+.error404 .et_pb_post:last-child {
+margin-bottom: 0;
+}
