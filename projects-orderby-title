@@ -1,0 +1,10 @@
+// Add this snippet to your themes "functions.php" to order the projects by title
+
+add_action( 'parse_query', function( $vars )
+{
+	if ( 'project' == $vars->query['post_type'] )
+	{
+		$vars->set( 'orderby', 'title' );
+		$vars->set( 'order', 'ASC' ); // DESC
+	} // end if
+}); // end add_action
