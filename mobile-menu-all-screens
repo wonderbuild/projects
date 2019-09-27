@@ -1,0 +1,9 @@
+/* SHOW MOBILE MENU HAMBURGER ALL SCREENS */
+@media only screen and ( min-width:980px ) {
+    #et_mobile_nav_menu { display:block !important; margin-bottom:20px; margin-top:6px }
+    #top-menu-nav { display:none; }
+    .et-fixed-header #et_mobile_nav_menu { margin-bottom:0; }
+	
+    /* set the width, and right align */
+    #mobile_menu { max-width: 400px; right: 0; left:auto; }
+}
