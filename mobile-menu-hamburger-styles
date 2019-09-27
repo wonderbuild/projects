@@ -1,0 +1,9 @@
+/* MOBILE MENU HAMBURGER SYTLES */
+.mobile_menu_bar:before {
+    position: relative;
+    top: 20px;
+    left: 0;
+    font-size: 50px;
+    content: "\61";
+    cursor: pointer;
+}
