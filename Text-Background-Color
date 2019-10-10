@@ -1,0 +1,7 @@
+/* background color behind Hx text */
+h2 {
+  display:inline;
+  background-color: #f4f4f4;
+  padding:0 10px 0 10px;
+  line-height:1.em;
+}
