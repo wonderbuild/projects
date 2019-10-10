@@ -1,22 +1,30 @@
-/* MAIN MENU DONATE BUTTON */
-.donate {border-radius: 0px;}
-.donate a {color: #fff!important;}
-li.donate {
-	background-color:#be0f34; 
+/* MENU book-now BUTTON */
+.book-now {border-radius: 0px;}
+.book-now a {color: #fff!important;}
+
+li.book-now {
+	background-color:#bb452c; 
 	font-weight: 700; 
 	text-transform: uppercase; 
 	text-align: center; 
-	padding: 10px 13px 10px 10px!important;
-	border-radius: 3px;
+	padding: 10px 10px 10px 10px !important;
+	border-radius: 1px;
 	-moz-transition: all 0.5s; 
 	-webkit-transition: all 0.5s;
-	transition: all 0.5s;}
-	li.donate:hover {background-color:#be0f34;}
- 
-.et-fixed-header #top-menu .donate a {
-	color: #fff!important;}
-.donate li.current-menu-ancestor > a, .donate li.current-menu-item > a {
-	color: #fff !important;}
+	transition: all 0.5s;
+    margin: -5px 20px 10px 0px !important;
+}
+	
+li.book-now:hover {background-color:#bb452c !important;}
+
 
 @media only screen and (min-width : 981px) {
-            li.donate {height: 33px;}}
+            li.book-now {height: 33px;}}
+
+.et_mobile_menu li.book-now  {
+  height:50px !important;
+  margin-top: 20px !important;
+}
+.et_mobile_menu li.book-now a {
+  padding: 5px !important;
+}
