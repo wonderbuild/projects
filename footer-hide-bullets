@@ -1,0 +1,2 @@
+/* hide bullets in the footer menus */
+.footer-widget li:before { display: none; }
