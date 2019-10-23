@@ -1,0 +1,17 @@
+/* PHOTO GALLERY FORCE THEM ALL THE SAME SIZE */
+
+.et_pb_gallery_image{
+padding-top: 56.25%;
+display: block;
+}
+
+.et_pb_gallery_image img {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+object-fit: cover;
+}
