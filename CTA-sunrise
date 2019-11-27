@@ -1,0 +1,26 @@
+/* sunrise */
+
+.sunrise:before {
+content: "";
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+left: 0;
+bottom: 0;
+background: #ff8900;
+border-radius: 50%;
+transition: 1s ease all;
+}
+
+.sunrise:hover:before {
+width: 300%;
+height: 300%;
+left: -150%;
+bottom: -150%;
+}
+
+.sunrise {
+position: relative;
+overflow: hidden;
+}
