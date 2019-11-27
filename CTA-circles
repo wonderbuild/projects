@@ -1,0 +1,20 @@
+/* CTA CIRCLES */
+
+.circle {
+  border-radius: 50% !important;
+  height: 240px !important;
+  width: 240px !important; 
+  margin: auto !important;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+.circle .et_pb_button_wrapper {
+  margin: auto !important;
+}
+.circle .et_pb_button {
+  font-size: 14px !important;
+}
+.circle .et_pb_button:hover:after {
+  font-size: 21px !important;
+}
