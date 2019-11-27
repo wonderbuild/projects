@@ -1,0 +1,31 @@
+/* Image fade */
+.image-fade:before {
+display: block;
+position: absolute;
+content: "";
+background: url('folder/image.jpg');
+top: -20%;
+left: -20%;
+width: 140%;
+height: 140%;
+z-index: 0;
+opacity: 0.05;
+background-size: cover;
+background-position: center;
+transform: rotate(-10deg);
+transition: 1s ease all;
+}
+
+.image-fade:hover:before {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.3;
+transform: rotate(0deg);
+}
+
+.image-fade {
+overflow: hidden;
+position: relative;
+}
