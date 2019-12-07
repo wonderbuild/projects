@@ -1,0 +1,7 @@
+/* ALIGN FOOTER WIDGETS ON TABLET & MOBILE */
+
+@media only screen and ( min-width:767px ) {
+#footer-widgets .footer-widget {
+  margin:20px auto !important;
+  text-align:center !important;
+}
