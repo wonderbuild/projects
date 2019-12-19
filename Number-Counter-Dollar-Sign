@@ -1,0 +1,9 @@
+
+    Add a Numer Counter Module into your page.
+    In the Number Counter Settings go to Content > Elements and set the Percentage Sign to OFF.
+    In the Number Counter Settings go to Advanced > CSS ID & CLasses and set a CSS Class of dollar
+    Add the following custom CSS to Divi Theme options custom CSS box, your page settings Custom CSS box or your style.css in your child theme;
+
+
+	
+.dollar .percent-value:before { content:'$';}
