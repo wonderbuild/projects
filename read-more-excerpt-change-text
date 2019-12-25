@@ -1,0 +1,11 @@
+Put this in the Divi Theme Options > Integration > Body Code
+
+
+<script type="text/javascript">
+(function($) {
+$(document).ready(function() {
+var newVal = 'View Full Post &raquo;';
+$('.more-link').html( newVal );
+});
+})(jQuery);
+</script>
