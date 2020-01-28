@@ -1,0 +1,3 @@
+/* WOOCOMMERCE REMOVE PRODUCT IMAGE HOVER */
+.woocommerce div.product .images, .woocommerce-page div.product .images {pointer-events: none !important;}
+div.images .woocommerce-product-gallery__trigger {display:none !important;}
