@@ -1,0 +1,3 @@
+/* Remove the down arrow from divi’s primary menu */
+‪#top-menu .menu-item-has-children > a:first-child:after{content: ” ;}
+#top-menu .menu-item-has-children {padding-right: 0px;}
