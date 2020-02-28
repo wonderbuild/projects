@@ -1,0 +1,6 @@
+/* FORCE STYLE ON iOS APPLE */
+.appleLinks a {color:#000000; text-decoration: none;} .appleLinksWhite a {color:#ffffff; text-decoration: none;}
+
+/* UPDATE CONTENT */
+<span class="appleLinks">863985624</span>
+
