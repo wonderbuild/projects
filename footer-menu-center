@@ -1,0 +1,5 @@
+/* Center the Footer Menu in DIVI */
+.bottom-nav {
+float: none!important;
+text-align: center!important;
+}
