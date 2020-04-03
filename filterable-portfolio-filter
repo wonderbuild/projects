@@ -1,4 +1,42 @@
-/* FILTERABLE PORTFOLIO CUSTOMIZATIONS */
+
+/* PUT JAVASCRIPT IN FOOTER.PHP ABOVE CLOSING BODY TAG */
+
+<script>
+jQuery(document).ready(function($){
+	
+	// CREATE THE SELECT DROPDOWN, ASSIGNING THE CATEGORY SLUG VALUE TO THE VALUE OF EACH OPTION
+	$('.et_pb_portfolio_filters ul').each(function() {
+        var $select = $('<select />');
+ 
+        $(this).find('.et_pb_portfolio_filter a').each(function() {
+            var $option = $('<option />');
+            $option.attr('value', $(this).attr('data-category-slug')).html($(this).html());
+            $select.append($option);
+        });
+ 
+        $(this).prepend($select);
+        
+    });
+    
+    // EMULATE CLICKING ON THE ORIGINAL FILTERS, TRIGGERING THE CLICK WITH THE CORRECT FILTER AND OPTION
+	$('.et_pb_portfolio_filters select').each(function() {
+		$(this).on('change', function() {
+			var selectedFilter = $(this).val();
+			$(this).siblings().find("[data-category-slug='"+selectedFilter+"']").trigger('click');
+		});
+	});
+	
+	// HIDE THE ORIGINAL FILTERS
+	$('.et_pb_portfolio_filters ul li').hide();
+    	
+});
+</script>
+
+
+
+
+
+/* FILTERABLE PORTFOLIO SELECT DROPDOWN CUSTOMIZATIONS FOR STYLECSS FILE */
 
 .et_pb_filterable_portfolio .et_pb_portfolio_filters {
     clear: both;
