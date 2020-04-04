@@ -1,0 +1,15 @@
+
+
+<!-- In header php replace this line:  -->
+img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
+
+<!-- with this line -->
+<span class="logo-text" style="font-family: 'Quattrocento Sans',Helvetica,Arial,Lucida,sans-serif; color: #000; font-size: 30px; font-weight: bold;"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></span>
+
+
+
+
+/* LOGO TEXT SMALLER FONT SIZE FOR MOBILE */
+@media only screen and ( max-width: 450px ) {
+.logo-text {font-size:20px !important;}
+}
