@@ -1,0 +1,10 @@
+/* ACCORDIAN ADD ICON TO OPEN TOGGLE */
+.et_pb_toggle_open .et_pb_toggle_title:before {
+  content: url(/wp-content/uploads/2020/05/close-button-50px.png) !important;
+  zoom:50% !important;
+  background-size: 100px !important;
+  width: 100px !important;
+  height: 100px !important;
+  visibility: visible;
+  display: block !important;
+}
