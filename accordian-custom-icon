@@ -1,0 +1,11 @@
+/* ACCORDIAN CUSTOM ICON */
+
+.et_pb_toggle_title:before {
+  content: url(/wp-content/uploads/2020/05/open-button-50px.png) !important;
+  zoom:70%;
+  background-size: 100px !important;
+  width: 100px !important;
+  height: 100px !important;
+  visibility: visible;
+  display: block;
+}
