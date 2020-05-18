@@ -1,4 +1,7 @@
+
+/* MONARCH SOCIAL ICONS IN CENTER */
+
 .et_monarch .et_social_networks li {
-float: none;
-display: inline-block;
+float: none !important;
+display: inline-block !important;
 }
