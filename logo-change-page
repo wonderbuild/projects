@@ -1,0 +1,4 @@
+/* LOGO CHANGE PAGE */
+.page-id-10 img#logo {
+content: url("/wp-content/uploads/2020/05/TotalView_logo_color.png");
+}
