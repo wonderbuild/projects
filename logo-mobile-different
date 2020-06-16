@@ -1,0 +1,6 @@
+/* DIFFERENT LOGO ON MOBILE */
+@media only screen and (max-width: 981px) {
+  #logo {
+    content: url("https://anchoragehistoricpreservationplan.com/wp-content/uploads/2020/06/HPProgramLogo_Large_With-Text-MOBILE-600px.jpg");
+  }
+}
