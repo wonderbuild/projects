@@ -1,0 +1,22 @@
+Cross browser solution would be to add the following jQuery to your Divi Theme Options > Integration > under the “add code to the head of your blog”:
+
+	
+<script>
+    var imageUrl = [
+  'ENTER DESKTOP LOGO IMAGE URL',
+  'ENTER FIXED HEADER LOGO IMAGE URL',
+    ];
+  
+    jQuery(window).on('scroll', function() {
+        var $header = jQuery('header');
+        var $logo = jQuery('#logo');
+  
+        if ($header.hasClass('et-fixed-header')) {
+            return $logo.attr('src', imageUrl[1]);
+        };
+  
+        return $logo.attr('src', imageUrl[0])
+    });
+</script>
+
+REPLACE the text “ENTER DESKTOP LOGO IMAGE URL” and “ENTER FIXED HEADER LOGO IMAGE URL” with your actual image URLs.
