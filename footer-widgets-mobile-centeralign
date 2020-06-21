@@ -1,7 +1,14 @@
-/* ALIGN FOOTER WIDGETS ON TABLET & MOBILE */
+@media screen and (max-width: 980px) {
 
-@media only screen and ( min-width:767px ) {
-#footer-widgets .footer-widget {
-  margin:20px auto !important;
-  text-align:center !important;
+    .footer-widget:nth-child(n) {
+        width: 100%!important;
+        margin-right: 0!important;
+    }
+    .footer-widget .et_pb_widget {
+        float: none!important;
+    }
+    #footer-widgets .footer-widget:nth-child(2) {
+        margin: 0!important;
+    }
+
 }
