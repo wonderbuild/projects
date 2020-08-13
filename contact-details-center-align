@@ -1,0 +1,5 @@
+/* CENTER ALIGN TOP INFO DETAILS */
+#et-info {
+	float: none !important;
+	text-align: center !important;
+}
