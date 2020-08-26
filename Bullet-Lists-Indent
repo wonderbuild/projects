@@ -1,0 +1,8 @@
+.entry-content ol, .entry-content ul {
+    padding: 30px 0px 30px 50px;
+    list-style-position: outside;
+}
+ 
+.entry-content ol li, .entry-content ul li {
+    margin-bottom: 10px;
+}
