@@ -1,0 +1,17 @@
+
+/* CHANGE RSS ICON TO EMAIL ICON */
+.et-social-rss a.icon:before {
+    content: "\e076";
+}
+
+
+
+
+
+THEN ADD THIS TO THE INTEGRATION TAB OF DIVI, TO CHANGE THE TOOLTIP TO MATCH
+
+<script>
+	jQuery(function($){
+		$('.et_pb_social_media_follow .et-social-rss a').attr('title','Email Nikoosh');
+	});
+</script>
