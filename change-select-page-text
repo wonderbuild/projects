@@ -1,0 +1,9 @@
+
+Changing the "Select Page" using PHP - put this in the functions.php file
+
+
+add_filter('gettext', 'change_select_page_text', 20, 3);
+function change_select_page_text($text, $orig, $domain ) {
+	if ($domain == 'Divi' and $orig == 'Select Page') { return 'Pick a Section'; }
+	return $text;
+}
