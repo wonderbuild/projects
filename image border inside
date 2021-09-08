@@ -1,0 +1,4 @@
+.et_pb_image img {
+  outline: 1px solid white;
+  outline-offset: -4px;
+}
