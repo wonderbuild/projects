@@ -1,6 +1,12 @@
 /* SETTING BREAKPOINT FOR MOBILE MENU */
-@media only screen and ( max-width: 1250px ) {
+@media only screen and ( max-width: 1350px ) {
 #top-menu-nav, #top-menu {display: none;}
-#et_top_search {display: none;}
 #et_mobile_nav_menu {display: block;}
+#et_top_search {margin-top: 10px;}
+
+}
+
+/* SETTING BREAKPOINT FOR SEARCH ICON */
+@media only screen and ( max-width: 980px ) {
+#et_top_search {margin: 0px 5px;}
 }
