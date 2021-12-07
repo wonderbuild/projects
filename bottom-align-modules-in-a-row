@@ -1,0 +1,6 @@
+Divi Row Settings - Vertically Align
+Module Custom CSS add:
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
