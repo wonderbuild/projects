@@ -1,0 +1,13 @@
+
+/* PUT THIS IN THE CHILD THEME FUNCTIONS.PHP FILE.   
+make the slug anything you want it to be - in this example, "trip" */
+
+
+function custom_post_name () {
+return array(
+'feeds' => true,
+'slug' => 'trip',
+'with_front' => false,
+);
+}
+add_filter( 'et_project_posttype_rewrite_args', 'custom_post_name' );
