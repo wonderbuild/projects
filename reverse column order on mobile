@@ -1,0 +1,7 @@
+/* REVERSE COLUMN ORDER ON MOBILE */
+@media screen and ( max-width: 980px ) {
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+} 
