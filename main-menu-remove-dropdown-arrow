@@ -1,2 +1,4 @@
 /* REMOVE DOWN ARROW FROM MAIN MENU NAVIGATION WHEN SUB-MENU ITEMS EXIST */
-.menu-item-has-children>a:after {display: none!important;}
+‪#top‬-menu .menu-item-has-children > a:first-child {padding-right: 0px; padding-bottom: 17px!important;}
+#top-menu .menu-item-has-children > a:first-child:after{content: ‘ ‘; margin-top: -2px;}
+#top-menu .menu-item-has-children {padding-right: 0px;}
