@@ -1,0 +1,17 @@
+.gform_wrapper input[type="submit"] {
+	background-color: #094e6d;
+	padding: .5% 2%;
+	border-width: 1px;
+	border-color: #094e6d;
+	color: #ffffff;
+    font-size: 18px;
+	border-radius: 15px;
+}
+
+.gform_wrapper input[type="submit"]:hover {
+	background-color: #53c0aa;
+	padding: .5% 2%;
+	border-width: 1px;
+	border-color: #53c0aa;
+	color: #fff;
+}
