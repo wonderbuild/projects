@@ -1,0 +1,11 @@
+/* GOOGLE TRANSLATE BUTTON STYLES */
+#glt-translate-trigger {
+  text-shadow: none;
+  font-family: 'Comfortaa',display;
+  background: #fa9a00;
+  box-shadow: none;
+}
+
+#glt-translate-trigger:hover {
+  background: rgb(250,154,0,.9);
+}
