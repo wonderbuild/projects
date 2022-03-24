@@ -1,0 +1,6 @@
+/* WOOCOMMERCE CHANGE CART TO BAG ICON */
+.et-cart-info span:before {
+    content: "\e079";
+    margin-right: 10px;
+    position: relative;
+}
