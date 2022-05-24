@@ -1,0 +1,11 @@
+/* HEADER NAV AREA TORN EFFECT */
+#main-header:after {
+  content: "";
+  background: url(https://gvt.wonderbuild.hosting/wp-content/uploads/2022/05/paper-tear-300x16.png);
+  background-repeat: repeat;
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  height: 16px;
+  width: 100%;
+}
