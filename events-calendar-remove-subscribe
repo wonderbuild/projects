@@ -1,0 +1,4 @@
+this goes into the function.php file
+
+// Remove subscribe to calendar dropdown from main calendar page
+add_filter( ‘tribe_template_html:events/v2/components/subscribe-links/list’, ‘__return_false’ );
