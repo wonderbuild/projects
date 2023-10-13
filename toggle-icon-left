@@ -1,0 +1,8 @@
+/* TOGGLE ICONS ON THE LEFT */
+.et_pb_toggle .et_pb_toggle_title:before {
+	left: 0 !important;
+}
+ .et_pb_toggle_title,
+ .et_pb_toggle_content {
+	padding-left: 2em !important
+}
